@@ -1,0 +1,24 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{listings}
+\usepackage{color}
+\author{Janos und Felix}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{ 
+  breaklines=true,                 % sets automatic line breaking          
+  commentstyle=\color{mygreen}, 
+   stringstyle=\color{mymauve},  
+   numberstyle=\tiny\color{mygray}  
+}
+\begin{document}
+
+ \lstinputlisting
+    [caption={Push Relabel}
+       ,captionpos=t,language=C++]
+ {Push-Relabel.cpp}
+\end{document}
