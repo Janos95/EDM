@@ -1,3 +1,3 @@
 # EDM
 
-These are some programms a friend and I wrote for my introduction to discrete mathematics course.
+These are some programms a friend and I wrote for our introduction to discrete mathe course.
